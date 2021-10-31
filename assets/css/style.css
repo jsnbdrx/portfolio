@@ -47,5 +47,25 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
-
 /*header styles end*/
+
+/*section styles*/
+section {
+    padding: 60px;
+}
+/*hero style*/
+.hero {
+    background-image: url('../images/hero_background.jfif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero-cta {
+    font-size: 30px;
+    color: #87cee8;
+}
+/*end hero*/

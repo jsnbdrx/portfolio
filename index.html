@@ -1,78 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Portfolio</title>
-    </head>
 
-    <body>
-        <header>
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<!--Start HTML Body-->
+<body>
+<!--Start global nav-->
+    <header>
+        <!--CB Builds Logo... also functions as home button or brings to top of site.-->
+        <div>
             <h1>
-                <a>Portfolio</a>
+                <a href="#home">Portfolio</a>
             </h1>
-    <!--Nav Bar-->
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#work">Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact-me">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#resume">Resume</a>
-                        <!--resume will link to actual resume-->
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    <!--End Nav Bar-->
-    <!--Hero-->
-        <section class="hero">
-            <div class="hero-cta">
-            <h1>INSERT SUBTITLE</h1>
-    <!--Hero contains image of self-->
-    <!--end hero section-->
-        </section>
-    <!--Start about me section-->
-        <section id="about-me" class="intro">
-            <div class="flex-row">
-                <h2>About Me</h2>
+        </div>
+        <!--Unordered list for top nav buttons-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#my-work">My Work</a>
+                </li>
+                <li>
+                    <a href="#reach-out">Reach Out</a>
+                </li>
+                <li>
+                    <a href="resume">Resume</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<!--End global nav-->
+
+<!--Start Hero section-->
+    <section id="hero-section">
+        <div class="hero-container">
+            <!--Name and slogan-->
+            <div class="hero-name">
+                <h1>Jason Boudreaux</h1>
             </div>
-            <div class="flex-row">
-                <p>
-                    This is a section about me. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam accusantium voluptas adipisci cupiditate ducimus fugit beatae minima tempore, sapiente sint aspernatur cum ex, quod dolorem consequuntur et sit optio?
-                </p>
+            <div class="hero-image">
+                <!--insert photo here headshot-->
             </div>
-        </section>
-    <!--end about me section-->
-    <!--start work section-->
-        <section id="work">
-            <div>
-                <h2>Work</h2>
-                <h3>Run Buddy</h3>
-                    <a>HTML/CSS</a>
-                <h3>Project 2</h3>
-                <h3>Project 3</h3>
-                <h3>Project 4</h3>
-                <h3>Project 5</h3>
+        </div>
+    </section>
+<!--End Hero section-->
+
+<!--Start About Me section-->
+    <section id="about-me">
+        <div class="about-me-container">
+            <h2>About Me</h2>
+            <p>
+          Hi! I'm Jason. 
+            </p>
+            </p>
+        </div>
+    </section>
+<!--End About Me section-->
+
+<!--Start My Work Section-->
+    <section id="my-work">
+        <h2>My Work</h2>
+        <div class="projects-container">
+            <!--containers for portfolio cards-->
+            <a href="https://travis2445.github.io/web-api-group-project/" target="_blank">
+                <div class="project-container-1">
+                    <!--project 1 card-->
+                    <article class="project1" >
+                        
+                            <h3>Group Project: Cocktailopedia</h3>
+                            <h4>HTML, CSS, Pure CSS, JavaScript</h4>
+                    </article>
+                </div>
+            </a>
+                
+            <div class="project-container-2">
+                <!--project 2 card-->
+            <a href="https://jsnbdrx.github.io/weather-dashboard/" target="_blank">
+                <div>
+                    <article class="project-card project2-img">
+                        <h3>Weather Dashboard</h3>
+                        <h4>JavaScript, Bootstrap, HTML, CSS</h4>
+                    </article>
+                </div>
+            </a>
+                <!--project 3 card-->
+            <a href="https://jsnbdrx.github.io/work-day-scheduler/" target="_blank">
+                <div>
+                    <article class="project-card project3-img">
+                        <h3>Work Day Scheduler</h3>
+                        <h4>JavaScript, Bootstrap, HTML, CSS</h4>
+                    </article>
+                </div>
+            </a>
             </div>
-        </section>
-    <!--end work section-->
-    <!--start contact me section-->
-        <section id="contact-me">
-            <div>
-                <h2>Contact Me</h2>
-                <a>Phone: 555-555-5555
-                    Email: name@mail.com
-                    GitHub: <!--insert GitHub link-->
+            <div class="project-container-3">
+                    <!--project 4 card-->
+                <a href="https://jsnbdrx.github.io/password-generator/" target="_blank">
+                    <div>
+                        <article class="project-card project4-img">
+                            <h3>Password Generator</h3>
+                            <h4>HTML, CSS, JavaScript</h4>
+                        </article>
+                    </div>
+                    </a>
+
+                    <!--project 5 card-->
+                <a href="https://jsnbdrx.github.io/runbuddy/runbuddy" target="_blank">
+                    <div>
+                        <article class="project-card project5-img">
+                            <h3>Run Buddy</h3>
+                            <h4>HTML, CSS</h4>
+                        </article>
+                    </div>
                 </a>
             </div>
-        </section>
-    <!--end contact me section-->
-    </body>
+            
+        </div>
+    </section>
+<!--End My Work Section-->
+
+<!--Start reach out section with info on how to contact me-->
+    <section id="reach-out" class="reach-out">
+        <div>
+            <h2>Reach Out</h2>
+            <p>Reach out to me if you would like to learn more.</p>
+            <address>
+                Phone: xxx.xxx.xxxx <br>
+                Email: <a href="mailto:js.bdrx@gmail.com">js.bdrx@gmail.com</a>
+            </address>
+        </div>
+        <!--contact form-->
+        <div class="contact-form">
+            <form action="mailto:js.bdrx@gmail.com" method="post" enctype="text/plain">
+                <label for="contact-name">Your Name:</label>
+                <input type="text" id="contact-name" placeholder="Your Name"/>
+    
+                <label for="contact-message">Message:</label>
+                <textarea type="text" name="email" id="contact-message" placeholder="Message"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+    </section>
+<!--End reach out section-->
+
+<!--Start Footer Section-->
+    <section class="footer-container">  
+         <div class="footer">
+             </div>
+            <div class="footer-text">
+                <h3>Built By Jason Boudreaux</h3>
+            </div>
+            <!--div for socials/ link outs-->
+            <div class="footer-socials">
+                <a href="https://linkedin.com/in/jason-boudreaux-8211b7222/" target="_blank">
+                    <h4>LinkedIn</h4>
+                </a>
+                <a href="https://github.com/jsnbdrx" target="_blank">
+                    <h4>GitHub</h4>
+                </a>
+
+            </div>
+        </div>
+    </section>
+<!--End Footer Section-->
+</body>
+</html>

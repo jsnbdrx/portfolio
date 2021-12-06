@@ -228,7 +228,7 @@ header nav ul li a:hover{
     flex-basis: 90%;
     height: 100%;
     /* change image to Cocktailopedia image when available!! */
-    background-image: url("../images/code-quiz.PNG");
+    background-image: url("../images/cocktailopedia.png");
     background-size: cover;
     background-position: top;
     display: flex;

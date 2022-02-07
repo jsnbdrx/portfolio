@@ -228,7 +228,7 @@ header nav ul li a:hover{
     flex-basis: 90%;
     height: 100%;
     /* change image to Cocktailopedia image when available!! */
-    background-image: url("../images/cocktailopedia.png");
+    background-image: url("../images/memegram-screenshot.png");
     background-size: cover;
     background-position: top;
     display: flex;
@@ -300,16 +300,16 @@ header nav ul li a:hover{
     height: 200px;
 }
 .project2-img{
-    background-image: url("../images/weather-dashboard-screenshot.png");
+    background-image: url("../images/cocktailopedia.png");
 }
 .project3-img{
-    background-image: url("../images/work-day-scheduler-screenshot.png");
+    background-image: url("../images/team-profile-generator-screenshot.png");
 }
 .project4-img{
-    background-image: url("../images/password-generator-webpage.png");
+    background-image: url("../images/work-day-scheduler-screenshot.png");
 }
 .project5-img {
-    background-image: url("../images/run-buddy.jpg");
+    background-image: url("../images/password-generator-webpage.png");
 }
 
 /*end projects styles*/
